@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
 public class Satvik {
 	public static void main(String[] args) {
+		System.out.println("satvik******************");
 		SpringApplication.run(Satvik.class, args);
 	}
 }
